@@ -33,7 +33,7 @@ function MyThings(){
 function Greeting(){
     var username=null;
     return(
-        <div>{username? 'Hello, {username}':'Not logged in'}</div>
+        <div>{username? 'Hello, '+username :'Not logged in'}</div>
     );
 }
 ReactDOM.render(<Greeting/>,document.getElementById('root'));
